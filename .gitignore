@@ -1,0 +1,26 @@
+# raw data (kept local, not committed)
+pdbs/
+50k_pdbs/
+50k_pdbs.tar.gz
+metadata/
+
+# pipeline intermediates
+unzipped_pdbs/
+stride-out/
+contexts/
+.snakemake/
+*.snakemake.log
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/

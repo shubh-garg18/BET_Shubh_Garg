@@ -1,0 +1,7 @@
+target_aa: ARG
+ss_pattern: HHH
+pdb_dir: pdbs
+# list_file: optional newline-separated list of PDB ids; leave empty
+# to discover them by globbing pdb_dir/*.pdb.gz
+list_file: ""
+stride_bin: stride

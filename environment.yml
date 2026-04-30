@@ -1,0 +1,12 @@
+name: bet-Shubh_Garg
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.10
+  - snakemake-minimal>=7
+  - stride
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
