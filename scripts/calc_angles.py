@@ -7,8 +7,8 @@ residue: v_left = CA_L -> centroid_L, v_centre = CA_C -> centroid_C,
 about the axis CA_L -> CA_C.
 
 Writes:
-    final/angles.tsv      one row per tripeptide
-    final/valid_pdbs.txt  PDB IDs that contributed at least one row
+    results/angles.tsv      one row per tripeptide
+    results/valid_pdbs.txt  PDB IDs that contributed at least one row
 """
 
 import gzip

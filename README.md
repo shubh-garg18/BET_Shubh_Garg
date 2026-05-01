@@ -11,7 +11,7 @@ result.
 ![ss profile](results/ss_profile_HHH_for_arg_with_valid_runs.png)
 
 PDB IDs that contributed to the plot:
-[`final/valid_pdbs.txt`](results/valid_pdbs.txt)
+[`results/valid_pdbs.txt`](results/valid_pdbs.txt)
 
 ## Run
 
@@ -22,7 +22,7 @@ snakemake --cores 8
 ```
 
 The plot is written to
-`final/ss_profile_HHH_for_arg_with_valid_runs.png`.
+`results/ss_profile_HHH_for_arg_with_valid_runs.png`.
 
 The conda environment with snakemake, stride and the python deps is in
 `environment.yml`:

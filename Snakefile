@@ -27,9 +27,9 @@ else:
     )
 
 
-PLOT_PNG   = "final/ss_profile_HHH_for_arg_with_valid_runs.png"
-ANGLES_TSV = "final/angles.tsv"
-VALID_PDBS = "final/valid_pdbs.txt"
+PLOT_PNG   = "results/ss_profile_HHH_for_arg_with_valid_runs.png"
+ANGLES_TSV = "results/angles.tsv"
+VALID_PDBS = "results/valid_pdbs.txt"
 
 
 rule all:
